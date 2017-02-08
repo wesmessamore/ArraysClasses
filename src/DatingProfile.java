@@ -5,8 +5,7 @@ import java.time.LocalDateTime;
  * Day 1 Homework for Iron Yard Nashville
  * Info for a dating website profile
  */
-public class DatingProfile {
-}
+
 public class DatingProfile {
     String userLogin;
     String userDisplayName;

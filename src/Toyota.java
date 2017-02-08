@@ -10,10 +10,16 @@ public class Toyota {
     int manufacturerscode;
     int stocknumber;
     float saleprice;
-    boolean ordermore;
     boolean isScratchAndDentSaleUnit;
     boolean hasZeroAPRFinancing;
 
+    /*note for JJ: didn't add quantity. this is for an individual unit (which is why
+    it has a stocknumber, the unique identifier in the inventory system for that one
+    unit. however in keeping with that idea, i did remove the orderMore boolean)
+     */
 
+    Toyota(){
+
+    }
 
 }
